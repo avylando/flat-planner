@@ -1,0 +1,7 @@
+{
+  "name": "flat-planner",
+  "permissions": [
+    "storage",
+    "*://localhost/*"
+  ]
+}

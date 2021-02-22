@@ -1,0 +1,48 @@
+{
+  "name": "flat-planner",
+  "version": "1.0.0",
+  "description": "Easy constructor for your own flat design",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.prod.js",
+    "start": "webpack serve --open --config config/webpack.dev.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avylando/flat-planner.git"
+  },
+  "author": "Anatoly Dolgov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avylando/flat-planner/issues"
+  },
+  "homepage": "https://github.com/avylando/flat-planner#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "mobx": "^6.1.7",
+    "mobx-react": "^7.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/webpack": "^4.41.26",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "html-webpack-plugin": "^5.2.0",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
